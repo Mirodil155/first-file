@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px 120px;
+}
+.main {
+    background: #151515;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    margin-left: 40px;
+}
+.item:nth-child(2) img {
+    width: 560px;
+    height: 550px;
+}
+ 
